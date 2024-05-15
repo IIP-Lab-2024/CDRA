@@ -136,3 +136,16 @@ Then you can execute the individual test set scripts [** Please modify the param
 For scripts that test the raw model, the model loads mainly with the parameter **model_name_or_path**
 
 For scripts that test the fine-tuning model, the model is mainly loaded by the parameter **load_path**
+
+
+## Citation
+lf you find this repo helpful, please cite the following paper:
+
+```
+@inproceedings{zheng-etal-2024, 
+title = "From Bias to Fairness: The Role of Domain-Specific Knowledge and Efficient Fine-Tuning", 
+author = "Zheng, Weixiong and Yang, Aimin and Lin, Nankai and Zhou, Dong", 
+booktitle = "International Conference on Intelligent Computing: ICIC 2024", 
+year = "2024", 
+publisher = "Lecture Notes in Artificial Intelligence (LNAI)" }
+```
